@@ -1,0 +1,126 @@
+body{
+    font-family: Arial, sans-serif;
+    background-color: #000000;
+    color:#E6E6FA;
+    margin: 0;
+    padding:0;  
+    font-weight: 900; 
+}
+video{
+    width:100%;
+    height:100%;
+}
+.bgvideo{
+    padding: 0;
+    position:fixed;
+    width: 100%;
+    height: 100%;
+    border: 0;
+    z-index: -1;
+}
+#contact{
+    text-align: center;
+}
+table{
+    background-image: linear-gradient(to top right,rgb(253, 253, 253),rgb(217, 255, 240),rgb(193, 253, 236));
+    color: #01161E;
+    border: 5px solid #36365d;
+    padding:10px;
+}
+td,th{
+    border: 0px;
+
+}
+mark{
+    background-color:#d7ffd7;
+}
+.head{
+    background-color: #1b4219;
+    padding: 1px;
+    margin:0;
+    text-align:center;
+    font-weight: bolder;
+}
+.middle b{
+    color:#83e2ac;
+}
+.demo{
+    background-image: linear-gradient(to top right,rgb(253, 253, 253),rgb(217, 255, 240),rgb(193, 253, 236));
+    position: sticky;
+    top:0;
+    text-align: center;
+    box-sizing: border-box;
+    color:#002702;
+    padding: 10px;
+    padding-right: 40px;
+}
+.middle h2{
+    text-align: center;
+    font-size: larger;
+    color:#26ed7d;
+}
+.middle img{ 
+    border-radius: 50px;
+    box-shadow: 10px 10px 2px rgb(109, 107, 107);
+}
+img:hover{
+    transform: scale(1.2);
+}
+table{
+    text-align: center;
+    border-radius: 50px;
+    width:40%;
+}
+button{
+    width: 200px;
+    height:30px;
+    color:rgb(4, 25, 0);
+    background-image: linear-gradient(to top right,rgb(253, 253, 253),rgb(217, 255, 240),rgb(193, 253, 236));
+    border-radius: 20px;
+    margin: 5px;
+} 
+.footer{
+    text-align: center;
+    background-color:#3e8e41;
+    padding: 20px;
+}
+@media(max-width:600px){
+    body{
+        width:100%;
+        font-size: small;
+    }
+    video{
+        object-fit: contain;
+    }
+    img{
+        margin-left: 140px;
+    }
+    .demo{
+        word-spacing: 20px;
+        font-size: medium;
+    }
+    h2{
+        text-align: center;
+    }
+    table{
+        width:100%;
+    }
+}
+@media(min-width:600px){
+    .demo{
+        word-spacing: 50px;
+        font-size: large;
+    }
+    img{
+        margin-left: 590px;
+    }
+    .head{
+    font-size:medium;
+    }
+    video{
+        object-fit: cover;
+    }
+    table{
+        width:80%;
+    }
+}
